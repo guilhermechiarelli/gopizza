@@ -1,0 +1,74 @@
+{
+  "recommendation": {
+    "name": "Califórnia"
+  },
+  "sales": {
+    "points": "10"
+  },
+  "sizes": [
+    {
+      "id": "1",
+      "description": "Pequena (4 pedaços)"
+    },
+    {
+      "id": "2",
+      "description": "Média (6 pedaços)"
+    },
+    {
+      "id": "3",
+      "description": "Grande (8 pedaços)"
+    },
+    {
+      "id": "4",
+      "description": "Extra grande (12 pedaços)"
+    }
+  ],
+  "borders": [
+    {
+      "id": "1",
+      "description": "Sem borda"
+    },
+    {
+      "id": "2",
+      "description": "Catupiry"
+    },
+    {
+      "id": "3",
+      "description": "Cheddar"
+    }
+  ],
+  "fillings": [
+    {
+      "id": "1",
+      "description": "Frango com catupiry"
+    },
+    {
+      "id": "2",
+      "description": "Pepperoni"
+    },
+    {
+      "id": "3",
+      "description": "Mussarela"
+    },
+    {
+      "id": "4",
+      "description": "Portuguesa"
+    },
+    {
+      "id": "5",
+      "description": "Calabresa"
+    },
+    {
+      "id": "6",
+      "description": "Marguerita"
+    },
+    {
+      "id": "7",
+      "description": "Brócolis"
+    },
+    {
+      "id": "8",
+      "description": "Califórnia"
+     }
+  ]
+}
