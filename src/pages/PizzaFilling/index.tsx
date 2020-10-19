@@ -11,7 +11,7 @@ import Header from '../../components/Header';
 import api from '../../services/api';
 
 import {
-  Container,
+  Form,
   Title,
   Options,
   NextButton,
@@ -52,7 +52,7 @@ const PizzaFilling: React.FC = () => {
     <>
       <Header />
 
-      <Container onSubmit={handleSubmit}>
+      <Form onSubmit={handleSubmit}>
         <Title>Qual o sabor de hoje?</Title>
 
         <Options>
@@ -67,7 +67,7 @@ const PizzaFilling: React.FC = () => {
         <NextButton title="Próximo passo">
           Próximo passo
         </NextButton>
-      </Container>
+      </Form>
     </>
   );
 };

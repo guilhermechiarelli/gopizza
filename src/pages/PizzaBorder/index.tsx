@@ -11,7 +11,7 @@ import Header from '../../components/Header';
 import api from '../../services/api';
 
 import {
-  Container,
+  Form,
   Title,
   Options,
   NextButton,
@@ -52,7 +52,7 @@ const PizzaBorder: React.FC = () => {
     <>
       <Header />
 
-      <Container onSubmit={handleSubmit}>
+      <Form onSubmit={handleSubmit}>
         <Title>Qual a sua borda preferida?</Title>
 
         <Options>
@@ -67,7 +67,7 @@ const PizzaBorder: React.FC = () => {
         <NextButton title="Próximo passo">
           Próximo passo
         </NextButton>
-      </Container>
+      </Form>
     </>
   );
 };

@@ -8,7 +8,7 @@ import Header from '../../components/Header';
 import api from '../../services/api';
 
 import {
-  Container,
+  Form,
   Title,
   Options,
   NextButton,
@@ -49,7 +49,7 @@ const PizzaSize: React.FC = () => {
     <>
       <Header />
 
-      <Container onSubmit={handleSubmit}>
+      <Form onSubmit={handleSubmit}>
         <Title>Qual o tamanho da pizza?</Title>
 
         <Options>
@@ -64,7 +64,7 @@ const PizzaSize: React.FC = () => {
         <NextButton title="Próximo passo">
           Próximo passo
         </NextButton>
-      </Container>
+      </Form>
     </>
   );
 };
